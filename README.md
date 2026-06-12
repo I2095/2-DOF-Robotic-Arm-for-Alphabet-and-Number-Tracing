@@ -1,6 +1,38 @@
 # 2-DOF-Robotic-Arm-for-Alphabet-and-Number-Tracing
 A MATLAB/Simulink-based 2-DOF robotic arm that draws user-selected alphanumeric characters. UI retrieves character images, and converts them into vectorized paths stored in the MATLAB variable *simin*. Simulink uses these paths for inverse kinematics and motion control, enabling real-time, contact-free visualization and planar sketching.
 
+## Project Workflow
+
+### 1. User Input
+The user selects an alphanumeric character through the MATLAB App Designer interface.
+
+### 2. Image Processing
+- Load character image
+- Convert to grayscale
+- Perform image inversion (if required)
+- Binarize image
+- Extract boundaries
+
+### 3. Path Optimization
+- Simplify contour points
+- Remove redundant coordinates
+- Preserve character shape
+
+### 4. Trajectory Generation
+- Normalize coordinates
+- Scale trajectory to the robotic arm workspace
+- Generate time vector
+- Create `simin` matrix
+
+### 5. Simulink Execution
+- Pass `simin` to Simulink
+- Compute inverse kinematics
+- Generate joint trajectories
+- Simulate robotic arm motion
+
+### Output
+The robotic arm traces the selected character in the simulation environment.
+
 # UI for entering the number/letter
 
 <img width="510" height="383" alt="image" src="https://github.com/user-attachments/assets/6300e9b5-4e37-46ce-81b1-6215ae6024e2" />
