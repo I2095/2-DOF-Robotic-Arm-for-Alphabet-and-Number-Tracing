@@ -11,6 +11,10 @@ The project serves as an educational platform for understanding:
 4. Trajectory Planning
 5. Control Systems
 6. MATLAB and Simulink Integration
+
+## System Overview
+<img width="527" height="902" alt="image" src="https://github.com/user-attachments/assets/d1e9d534-fce6-4194-ad65-27b6c12798e4" />
+
 ## Project Workflow
 ### 1. User Input
 The user selects an alphanumeric character through the MATLAB App Designer interface.
