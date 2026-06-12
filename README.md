@@ -34,14 +34,14 @@ The user selects an alphanumeric character through the MATLAB App Designer inter
 - Compute inverse kinematics and generate joint trajectories
 - Simulate robotic arm motion
 
-# Technologies Used
+### Technologies Used
 -MATLAB
 -Simulink
 -MATLAB App Designer
 -Image Processing Toolbox
 -Robotics and Control System Concepts
 
-### Output
+# Output
 The robotic arm traces the selected character in the simulation environment.
 
 # UI for entering the number/letter
@@ -50,7 +50,7 @@ The robotic arm traces the selected character in the simulation environment.
 # Path traced by the robotic arm for various letters/numbers
 # A
 <img width="375" height="204" alt="image" src="https://github.com/user-attachments/assets/d3afea78-0af7-4b34-b36c-9ed2fdb61eb5" />
-
+# 
 # P
 <img width="437" height="245" alt="image" src="https://github.com/user-attachments/assets/8126e7b9-2dc0-45f2-ae3a-5e1b1460e710" />
 
