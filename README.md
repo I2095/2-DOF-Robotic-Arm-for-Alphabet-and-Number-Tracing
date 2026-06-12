@@ -48,19 +48,19 @@ The robotic arm traces the selected character in the simulation environment.
 <img width="510" height="383" alt="image" src="https://github.com/user-attachments/assets/6300e9b5-4e37-46ce-81b1-6215ae6024e2" />
 
 # Path traced by the robotic arm for various letters/numbers
-# A
+### Letter A
 <img width="375" height="204" alt="image" src="https://github.com/user-attachments/assets/d3afea78-0af7-4b34-b36c-9ed2fdb61eb5" />
 
-# P
+### Letter P
 <img width="437" height="245" alt="image" src="https://github.com/user-attachments/assets/8126e7b9-2dc0-45f2-ae3a-5e1b1460e710" />
 
-# 1
+### Number 1
 <img width="444" height="230" alt="image" src="https://github.com/user-attachments/assets/4c18df96-9cd6-4f47-907c-03032a79d1ea" />
 
-# 4
+### Number 4
 <img width="452" height="254" alt="image" src="https://github.com/user-attachments/assets/83d37239-5a52-4be7-9e85-c0560cc93421" />
 
-# 7
+### Number 7
 <img width="437" height="229" alt="image" src="https://github.com/user-attachments/assets/25cf19b2-a491-4151-bca0-d1364b4bc118" />
 
 # Compare with handwritten to the path traced by robotic arm
